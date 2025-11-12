@@ -1248,7 +1248,7 @@ video {
 }
 
 .stroke-white\/15 {
-  stroke: rgb(255 255 255 / 0.15);
+  stroke: rgb(255 255 255 / 0.3);
 }
 
 .stroke-white\/5 {
@@ -1572,11 +1572,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.grayscale {
-  --tw-grayscale: grayscale(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -1745,11 +1740,6 @@ video {
 
 .group:hover .group-hover\:ring-white\/20 {
   --tw-ring-color: rgb(255 255 255 / 0.2);
-}
-
-.group:hover .group-hover\:grayscale-0 {
-  --tw-grayscale: grayscale(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media not all and (min-width: 1024px) {
@@ -2093,7 +2083,7 @@ video {
   }
 
   .xl\:stroke-white\/15 {
-    stroke: rgb(255 255 255 / 0.15);
+    stroke: rgb(255 255 255 / 0.3);
   }
 
   .xl\:font-medium {
