@@ -723,6 +723,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -761,6 +766,18 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -1133,6 +1150,23 @@ video {
   border-color: rgb(255 255 255 / 0.1);
 }
 
+.border-white\/30 {
+  border-color: rgb(255 255 255 / 0.3);
+}
+
+.border-white\/20 {
+  border-color: rgb(255 255 255 / 0.2);
+}
+
+.border-white\/70 {
+  border-color: rgb(255 255 255 / 0.7);
+}
+
+.border-sky-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(7 89 133 / var(--tw-border-opacity, 1));
+}
+
 .border-l-sky-600 {
   --tw-border-opacity: 1;
   border-left-color: rgb(2 132 199 / var(--tw-border-opacity, 1));
@@ -1248,7 +1282,7 @@ video {
 }
 
 .stroke-white\/15 {
-  stroke: rgb(255 255 255 / 0.3);
+  stroke: rgb(255 255 255 / 0.15);
 }
 
 .stroke-white\/5 {
@@ -1261,6 +1295,10 @@ video {
 
 .stroke-zinc-500 {
   stroke: #71717a;
+}
+
+.stroke-white\/30 {
+  stroke: rgb(255 255 255 / 0.3);
 }
 
 .object-cover {
@@ -1505,6 +1543,10 @@ video {
 .text-zinc-100 {
   --tw-text-opacity: 1;
   color: rgb(244 244 245 / var(--tw-text-opacity, 1));
+}
+
+.text-white\/70 {
+  color: rgb(255 255 255 / 0.7);
 }
 
 .opacity-0 {
@@ -2083,6 +2125,10 @@ video {
   }
 
   .xl\:stroke-white\/15 {
+    stroke: rgb(255 255 255 / 0.15);
+  }
+
+  .xl\:stroke-white\/30 {
     stroke: rgb(255 255 255 / 0.3);
   }
 
@@ -2092,6 +2138,10 @@ video {
 
   .xl\:text-white\/50 {
     color: rgb(255 255 255 / 0.5);
+  }
+
+  .xl\:text-white\/70 {
+    color: rgb(255 255 255 / 0.7);
   }
 }
 
