@@ -1408,6 +1408,10 @@ video {
   text-align: center;
 }
 
+.text-lg {
+  font-size:1.125rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
